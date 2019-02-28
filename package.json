@@ -16,7 +16,7 @@
     "react-native": "^0.58.5",
     "typescript": "^3.3.3333"
   },
-  "peerDependencies": {
+  "dependencies": {
     "lodash": "4.*",
     "react": "16.*"
   }
