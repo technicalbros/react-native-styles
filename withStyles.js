@@ -38,3 +38,4 @@ function withStyles(styles) {
         return Com;
     };
 }
+exports.default = withStyles;

@@ -11,3 +11,5 @@ function withStyles(styles: any) {
         return Com
     }
 }
+
+export default withStyles;
