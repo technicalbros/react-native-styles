@@ -1,6 +1,6 @@
 {
   "name": "@technicalbros/react-native-styles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "watch": "tsc --watch"
   },
@@ -11,13 +11,12 @@
   "devDependencies": {
     "@types/lodash": "^4.14.121",
     "@types/react": "^16.8.5",
-    "lodash": "^4.17.11",
-    "react": "^16.8.3",
-    "react-native": "^0.58.5",
+    "@types/react-native": "^0.57.38",
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "lodash": "4.*",
-    "react": "16.*"
+    "lodash": "^4.x",
+    "react": "^16.x",
+    "react-native": "^0.x"
   }
 }
