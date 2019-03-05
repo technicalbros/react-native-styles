@@ -26,13 +26,17 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var _ = __importStar(require("lodash"));
+var React = __importStar(require("react"));
+var lodash_1 = __importDefault(require("lodash"));
 function withStyles(styles) {
     return function (Component) {
         function Com(props) {
             var overrides = props.styles, restProps = __rest(props, ["styles"]);
-            var style = _.mergeWith({}, styles, overrides, function (org, src) { return (__assign({}, org, src)); });
+            var style = lodash_1.default.mergeWith({}, styles, overrides, function (org, src) { return (__assign({}, org, src)); });
             return <Component styles={style} {...restProps}/>;
         }
         return Com;

@@ -1,6 +1,7 @@
-import * as _ from "lodash";
+import * as React from "react";
+import _ from "lodash";
 
-function withStyles(styles: any) {
+export default function withStyles(styles: any) {
     return function (Component) {
         function Com(props) {
             const {styles: overrides, ...restProps} = props
@@ -11,5 +12,3 @@ function withStyles(styles: any) {
         return Com
     }
 }
-
-export default withStyles;
