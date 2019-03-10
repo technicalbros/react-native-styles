@@ -1,1 +1,2 @@
-export default function withStyles(styles: any): (Component: any) => (props: any) => JSX.Element;
+declare const _default: (styles: any) => (Component: any) => (props: any) => JSX.Element;
+export default _default;
